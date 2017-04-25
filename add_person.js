@@ -22,5 +22,5 @@ knex.select('*').from('famous_people').then(function (result) {
   console.log(result);
 
 }).catch(function (err) {
-  if (err) { console.error(err);;}
+  if (err) { console.error(err);}
 });
